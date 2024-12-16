@@ -191,7 +191,12 @@ const typescriptSvelteConfig = (svelteConfig) => [
  * @property {(svelteConfig: Object) => Object[]} typescriptSvelte - Pass svelte.config.js as a parameter
  */
 
-/** @type {ESLintConfigs} */
+/**
+ * @typedef {Object} WolfLint
+ * @property {ESLintConfigs} configs
+ */
+
+/** @type {WolfLint} */
 export default {
     configs: {
         typescript: typescriptConfig,
