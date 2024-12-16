@@ -183,7 +183,8 @@ const typescriptSvelteConfig = (svelteConfig) => [
             "svelte/no-ignored-unsubscribe": "error",
         },
     },
-]
+];
+
 /**
  * @typedef {Object} ESLintConfigs
  * @property {Object} typescript
@@ -194,6 +195,6 @@ const typescriptSvelteConfig = (svelteConfig) => [
 export default {
     configs: {
         typescript: typescriptConfig,
-        typescriptSvelte: typescriptSvelteConfig
-    }
-}
+        typescriptSvelte: typescriptSvelteConfig,
+    },
+};
