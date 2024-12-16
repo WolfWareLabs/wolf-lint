@@ -1,9 +1,18 @@
 {
   "name": "@wolfwarelabs/wolf-lint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "UNLICENSED",
   "type": "module",
-  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    },
+    "./svelte": {
+      "import": "./src/svelte/svelte.js",
+      "types": "./src/svelte/svelte.d.ts"
+    }
+  },
   "peerDependencies": {
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
