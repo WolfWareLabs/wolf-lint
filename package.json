@@ -1,6 +1,6 @@
 {
   "name": "@wolfwarelabs/wolf-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "UNLICENSED",
   "type": "module",
   "module": "index.js",
@@ -9,16 +9,10 @@
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.3.3",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.12.1",
-    "eslint-plugin-svelte": "^2.46.1"
+    "typescript-eslint": "^8.12.1"
   },
   "devDependencies": {
     "@types/eslint-config-prettier": "^6.11.3",
-    "eslint": "^9.13.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.3",
-    "typescript": "^5.6.3",
-    "typescript-eslint": "^8.12.1",
     "eslint-plugin-svelte": "^2.46.1"
   }
 }
