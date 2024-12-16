@@ -81,7 +81,19 @@ export default {
                     "operator-assignment": "error",
                     "prefer-arrow-callback": "error",
                     "prefer-const": "error",
-                    "prefer-destructuring": ["error", { object: true, array: false }],
+                    "prefer-destructuring": [
+                        "error",
+                        {
+                            VariableDeclarator: {
+                                array: false,
+                                object: true,
+                            },
+                            AssignmentExpression: {
+                                array: false,
+                                object: false,
+                            },
+                        },
+                    ],
                     "prefer-exponentiation-operator": "error",
                     "prefer-named-capture-group": "error",
                     "prefer-numeric-literals": "error",
