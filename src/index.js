@@ -16,7 +16,7 @@ export default {
                     "no-self-compare": "error",
                     "no-unreachable-loop": "warn",
                     "block-scoped-var": "error",
-                    camelcase: ["error", { properties: "never" }],
+                    camelcase: ["error", { properties: "never", ignoreImports: true }],
                     "capitalized-comments": ["error", "always", { ignoreConsecutiveComments: true }],
                     "consistent-return": "error",
                     "consistent-this": "error",
