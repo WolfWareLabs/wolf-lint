@@ -136,7 +136,10 @@ export default {
                     "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
                     "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
                     "@typescript-eslint/no-non-null-assertion": "warn",
-                    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+                    "@typescript-eslint/no-unused-vars": [
+                        "error",
+                        { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+                    ],
                     "no-shadow": "off",
                     "@typescript-eslint/no-shadow": ["error", { allow: ["db"] }],
                     "@typescript-eslint/no-unnecessary-parameter-property-assignment": "error",
