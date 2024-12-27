@@ -1,4 +1,5 @@
 import index from "../index.js";
+import "eslint-plugin-svelte";
 
 export default {
     configs: {
