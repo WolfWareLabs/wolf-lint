@@ -1,10 +1,11 @@
 import index from "../index.js";
-import "eslint-plugin-svelte";
+import eslintPluginSvelte from "eslint-plugin-svelte";
 
 export default {
     configs: {
         recommendedWithConfig: (svelteConfig) => [
             ...index.configs.recommended,
+            ...eslintPluginSvelte.configs["flat/prettier"],
             {
                 files: ["*.svelte", "**/*.svelte"],
                 languageOptions: {
