@@ -8,8 +8,6 @@ export default {
             prettierEslint,
             {
                 rules: {
-                    "padded-blocks": ["error", "never"],
-                    "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 1, maxBOF: 0 }],
                     "array-callback-return": ["error", { checkForEach: true }],
                     "no-await-in-loop": "warn",
                     "no-duplicate-imports": ["error", { includeExports: true }],
@@ -17,7 +15,6 @@ export default {
                     "no-unreachable-loop": "warn",
                     "block-scoped-var": "error",
                     camelcase: ["error", { properties: "never", ignoreImports: true }],
-                    "capitalized-comments": ["error", "always", { ignoreConsecutiveComments: true }],
                     "consistent-return": "error",
                     "consistent-this": "error",
                     curly: ["error", "all"],
